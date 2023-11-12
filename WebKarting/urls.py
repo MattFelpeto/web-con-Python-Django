@@ -9,5 +9,8 @@ urlpatterns = [
     path('tabla_posiciones', views.tabla_pos, name="tabla-posiciones"),
     path('Historial', views.historial_carreras, name="historial-carreras"),
     path('fechas', views.fechas_carreras, name="fechas-carreras"),
-    path('https://3dimensionate.com.ar', views.home)    
+    path('https://3dimensionate.com.ar', views.home),
+    path('login_user', views.login_user, name="login"),
+    path('logout_user', views.logout_user, name="logout"), 
+    path('register_user', views.register_user, name="register_user")    
     ]
