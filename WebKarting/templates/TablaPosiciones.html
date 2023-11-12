@@ -1,0 +1,17 @@
+{% extends 'base.html'%}
+
+{% block content%}
+
+<div class="card" style="width: 1000px; height: 750px; margin: 0 auto">
+    <div class="card-body">
+      <h5 class="card-title" style="text-align: center">CAMPEONATO 2023/2024</h5>
+      <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+      <p class="card-text">{% include 'estetica_TablaPosiciones.html'%}</p>
+      <a href= {% url 'fechas-carreras' %} class="card-link">Proximas fechas</a>
+      <a href={% url 'historial-carreras' %} class="card-link">Historial de Carreras</a>
+    </div>
+  </div>
+
+   
+               
+{% endblock %}

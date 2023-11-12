@@ -1,0 +1,127 @@
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col" style="width: 10%; text-align: left;" class="Puesto" >Puesto</th>
+        <th scope="col" style="width: 20%; text-align: left;" class="piloto">Piloto</th>
+        <th scope="col" style="width: 20%; text-align: left;" class="puntos">Puntos</th>
+        <th scope="col" style="width: 20%; text-align: left;" class="carreras-ganadas">Carreras ganadas</th>
+        <th scope="col" style="width: 20%; text-align: left;" class="fecha-completadas">Fechas completadas</th>        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Fernando</td>
+        {% for info in Puntos_Fernando %}
+        <td>{{info.puntos}}</td>
+        <td>{{info.carreras_ganadas}}</td> 
+        <td>{{info.fechas_completadas}}</td>                
+        {%endfor%}
+      </tr>
+      <tr>
+        <th scope="row">2</th>        
+        <td>Matias</td>
+        {% for info in Puntos_Matias %}        
+        <td>{{ info.puntos }}</td>
+        <td>{{ info.carreras_ganadas }}</td>
+        <td>{{ info.fechas_completadas }}</td>  
+        {%endfor%}
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>JordY</td>
+        {% for info in Puntos_Jordy %}
+        <td>{{ info.puntos }}</td>
+        <td>{{ info.carreras_ganadas }}</td>
+        <td>{{ info.fechas_completadas }}</td>  
+        {%endfor%}
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Pato</td>
+        {% for info in Puntos_Pato %}
+        <td>{{ info.puntos }}</td>
+        <td>{{ info.carreras_ganadas }}</td>
+        <td>{{ info.fechas_completadas }}</td>
+        {%endfor%}  
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>Cristian</td>
+        {% for info in Puntos_Cristian %}
+        <td>{{ info.puntos }}</td>
+        <td>{{ info.carreras_ganadas }}</td>
+        <td>{{ info.fechas_completadas }}</td>
+        {%endfor%}   
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td>Martincho</td>
+        {% for info in Puntos_Martincho %}
+        <td>{{ info.puntos }}</td>
+        <td>{{ info.carreras_ganadas }}</td>
+        <td>{{ info.fechas_completadas }}</td>
+        {%endfor%}   
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td>Pedro</td>
+        {% for info in Puntos_Pedro %}
+        <td>{{ info.puntos }}</td>
+        <td>{{ info.carreras_ganadas }}</td>
+        <td>{{ info.fechas_completadas }}</td>
+        {%endfor%}   
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td>Agustin</td>
+        {% for info in Puntos_Agustin %}
+        <td>{{ info.puntos }}</td>
+        <td>{{ info.carreras_ganadas }}</td>
+        <td>{{ info.fechas_completadas }}</td>
+        {%endfor%}   
+      </tr>
+      <tr>
+        <th scope="row">9</th>
+        <td>-</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>  
+      </tr>
+      <tr>
+        <th scope="row">10</th>
+        <td>-</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>  
+      </tr>
+      <tr>
+        <th>11</th>
+        <td>-</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>  
+      </tr>
+      <tr>
+        <th scope="row">12</th>
+        <td>-</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>  
+      </tr>
+      <tr>
+        <th scope="row">13</th>
+        <td>-</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>  
+      </tr>
+      <tr>
+        <th scope="row">14</th>
+        <td>-</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>  
+      </tr>
+    </tbody>
+  </table>

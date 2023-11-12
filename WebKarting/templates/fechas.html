@@ -1,0 +1,37 @@
+{% extends 'base.html'%}
+
+{% block content%}
+
+<div class="container">
+  <div class="row">
+<div class="card" style="width: 18rem; top: 20px; left: 50px; right: 20px">
+    <img src="/static/images/Kartodromo_CABA.png" style="padding: 10px; padding-right: 1px; padding-left: 1px" class="card-img-top" alt="...">
+    <div class="card-body">
+        {% for info in Pista %}
+      <h5 class="card-title">{{ info.lugar }}</h5>
+      <p class="card-text">
+        <ul>
+            <li>Fecha: {{ info.nombre }}</li>
+            <li>Día: {{info.fecha}}</li>
+            <li>Hora: {{info.hora}}</li>
+            <li>Podio: -</li>            
+        </ul>    
+    </p>
+      <a href="https://www.google.com.ar/maps/place/Kart%C3%B3dromo+Internacional+de+Buenos+Aires/@-34.6982597,-58.4702363,17z/data=!3m1!4b1!4m6!3m5!1s0x95bccea3f1407965:0xb68cbb195c0d0a64!8m2!3d-34.6982641!4d-58.467656!16s%2Fg%2F11bv3v97z1?entry=ttu" class="btn btn-dark">¿Como llego?</a>
+      {%endfor%}
+    </div>
+  </div>   
+</div>
+</div>
+
+<div class="card" style="width: 18rem; top: -394px; left: 450px; right: 100px">
+  <img src="/static/images/carrera_diciembre.png" class="card-img-top+" alt="carrera diciembre">
+  <div class="card-body">
+    <h5 class="card-title">KARTODROMO CABA</h5>
+    <p class="card-text">PRÓXIMAMENTE</p>
+    
+  </div>
+</div>
+    
+
+{% endblock %}
