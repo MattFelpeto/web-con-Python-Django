@@ -23,8 +23,8 @@ def tabla_pos(request):
     Puntos_Pato = Piloto_Pato.objects.all()
     Puntos_Cristian = Piloto_Cristian.objects.all()
     Puntos_Martincho = Piloto_Martincho.objects.all()
-    Puntos_Pedro = Piloto_Yoa.objects.all()
-    Puntos_Agustin = Piloto_Guada.objects.all()
+    Puntos_Yoa = Piloto_Yoa.objects.all()
+    Puntos_Guada = Piloto_Guada.objects.all()
              
     return render(request, 'TablaPosiciones.html', {
         "Puntos_Matias": Puntos_Matias,
@@ -33,8 +33,8 @@ def tabla_pos(request):
         "Puntos_Pato": Puntos_Pato,
         "Puntos_Cristian": Puntos_Cristian,
         "Puntos_Martincho": Puntos_Martincho,
-        "Puntos_Pedro": Puntos_Pedro,
-        "Puntos_Agustin": Puntos_Agustin,
+        "Puntos_Yoa": Puntos_Yoa,
+        "Puntos_Guada": Puntos_Guada,
     })
 
 def historial_carreras(request):
