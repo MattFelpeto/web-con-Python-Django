@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'tablakarting.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd17om8vq6flljm',
-        'USER': 'kfvzxkwgxrrstj',
-        'PASSWORD': 'd97effcf211978429db8d78f202c73377d9effda961785d049d4b2b638bc1c33',
-        'HOST': 'ec2-44-215-22-37.compute-1.amazonaws.com',
+        'NAME': 'd7ga3mhpm82bm1',
+        'USER': 'ligxtjygsiagzm',
+        'PASSWORD': '08eab98ccabac3f92fce78718acd07eabf3509618ccaaa813cdd8391c2b0d42a',
+        'HOST': 'ec2-44-215-211-215.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
