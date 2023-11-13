@@ -6,7 +6,6 @@ from .models import Piloto_Jordy
 from .models import Piloto_Pato
 from .models import Piloto_Cristian
 from .models import Piloto_Martincho
-from .models import Piloto_Guada
 from .models import Piloto_Yoa
 from .models import Fechas_Carreras
 
@@ -16,6 +15,5 @@ admin.site.register(Piloto_Jordy)
 admin.site.register(Piloto_Pato)
 admin.site.register(Piloto_Cristian)
 admin.site.register(Piloto_Martincho)
-admin.site.register(Piloto_Guada)
 admin.site.register(Piloto_Yoa)
 admin.site.register(Fechas_Carreras)

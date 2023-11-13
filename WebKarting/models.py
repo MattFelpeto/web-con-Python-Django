@@ -57,15 +57,7 @@ class Piloto_Yoa(models.Model):
     fechas_completadas = models.CharField('Fechas Completadas', max_length=60)
     
     def __str__(self):
-        return self.puntos 
-
-class Piloto_Guada(models.Model):    
-    puntos = models.CharField('Puntaje actual', max_length=60)
-    carreras_ganadas = models.CharField('Carreras Ganadas', max_length=60 )
-    fechas_completadas = models.CharField('Fechas Completadas', max_length=60)
-    
-    def __str__(self):
-        return self.puntos                    
+        return self.puntos                     
 
 #----------------TABLA DE FECHAS-----------------------
 
