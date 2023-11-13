@@ -10,6 +10,7 @@ from .models import Piloto_Cristian
 from .models import Piloto_Martincho
 from .models import Piloto_Yoa
 from .models import Fechas_Carreras
+from .models import Piloto_Guada
 
 # Create your views here.
 def home(request):
@@ -23,6 +24,7 @@ def tabla_pos(request):
     Puntos_Cristian = Piloto_Cristian.objects.all()
     Puntos_Martincho = Piloto_Martincho.objects.all()
     Puntos_Yoa = Piloto_Yoa.objects.all()
+    Puntos_Guada = Piloto_Guada.objects.all()
     
              
     return render(request, 'TablaPosiciones.html', {
@@ -33,6 +35,7 @@ def tabla_pos(request):
         "Puntos_Cristian": Puntos_Cristian,
         "Puntos_Martincho": Puntos_Martincho,
         "Puntos_Yoa": Puntos_Yoa,        
+        "Puntos_Guada": Puntos_Guada,
     })
 
 def historial_carreras(request):
