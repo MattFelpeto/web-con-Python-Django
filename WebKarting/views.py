@@ -8,7 +8,6 @@ from .models import Piloto_Jordy
 from .models import Piloto_Pato
 from .models import Piloto_Cristian
 from .models import Piloto_Martincho
-from .models import Piloto_Guada
 from .models import Piloto_Yoa
 from .models import Fechas_Carreras
 
