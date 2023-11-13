@@ -8,8 +8,8 @@ from .models import Piloto_Jordy
 from .models import Piloto_Pato
 from .models import Piloto_Cristian
 from .models import Piloto_Martincho
-from .models import Piloto_Pedro
-from .models import Piloto_Agustin
+from .models import Piloto_Guada
+from .models import Piloto_Yoa
 from .models import Fechas_Carreras
 
 # Create your views here.
@@ -23,8 +23,8 @@ def tabla_pos(request):
     Puntos_Pato = Piloto_Pato.objects.all()
     Puntos_Cristian = Piloto_Cristian.objects.all()
     Puntos_Martincho = Piloto_Martincho.objects.all()
-    Puntos_Pedro = Piloto_Pedro.objects.all()
-    Puntos_Agustin = Piloto_Agustin.objects.all()
+    Puntos_Pedro = Piloto_Yoa.objects.all()
+    Puntos_Agustin = Piloto_Guada.objects.all()
              
     return render(request, 'TablaPosiciones.html', {
         "Puntos_Matias": Puntos_Matias,
