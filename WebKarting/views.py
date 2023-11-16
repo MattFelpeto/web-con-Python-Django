@@ -96,4 +96,4 @@ def register_user(request):
     })    
     
 def puntuacion(request):
-    return render(request, 'info_puntuacion.html', {})    
+    return render(request, 'info_puntos.html', {})    
