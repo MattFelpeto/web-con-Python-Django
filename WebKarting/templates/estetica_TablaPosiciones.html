@@ -86,42 +86,48 @@
 
       <tr>
         <th scope="row">9</th>
-        <td>Luis</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>  
+        <td>Nicolas</td>
+        {% for info in Puntos_Nicolas %}
+        <td>{{ info.puntos }}</td>
+        <td>{{ info.carreras_ganadas }}</td>
+        <td>{{ info.fechas_completadas }}</td>
+        {%endfor%}  
       </tr>
       <tr>
         <th scope="row">10</th>
-        <td>Ivan</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>  
+        <td>Julian</td>
+        {% for info in Puntos_Julian %}
+        <td>{{ info.puntos }}</td>
+        <td>{{ info.carreras_ganadas }}</td>
+        <td>{{ info.fechas_completadas }}</td>
+        {%endfor%}  
       </tr>
       <tr>
         <th scope="row">11</th>
-        <td>Leo</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>  
+        <td>Alejandro</td>
+        {% for info in Puntos_Alejandro %}
+        <td>{{ info.puntos }}</td>
+        <td>{{ info.carreras_ganadas }}</td>
+        <td>{{ info.fechas_completadas }}</td>
+        {%endfor%}  
       </tr>
       <tr>
         <th scope="row">12</th>
-        <td>Nico</td>
+        <td>-</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>  
       </tr>
       <tr>
         <th scope="row">13</th>
-        <td>Julian</td>
+        <td>-</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>  
       </tr>
       <tr>
         <th scope="row">14</th>
-        <td>Ale</td>
+        <td>-</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>  
