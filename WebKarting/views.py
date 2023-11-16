@@ -94,3 +94,6 @@ def register_user(request):
     return render(request, 'register_user.html', {
         'form': form,
     })    
+    
+def puntuacion(request):
+    return render (request, 'info_puntuacion', {})    

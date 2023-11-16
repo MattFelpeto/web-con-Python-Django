@@ -12,5 +12,6 @@ urlpatterns = [
     path('https://3dimensionate.com.ar', views.home),
     path('login_user', views.login_user, name="login"),
     path('logout_user', views.logout_user, name="logout"), 
-    path('register_user', views.register_user, name="register_user")    
+    path('register_user', views.register_user, name="register_user"),
+    path('info_puntos', views.puntuacion, name='como_se_puntua')    
     ]
