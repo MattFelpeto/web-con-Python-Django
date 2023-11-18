@@ -49,6 +49,9 @@ def tabla_pos(request):
 def historial_carreras(request):
     return render(request, 'historial.html', {})
 
+def historial_carrera_1(request):
+    return render(request, 'historial_carrera_1.html', {})
+
 def fechas_carreras(request):
     Pista = Fechas_Carreras.objects.all()
     return render(request, 'fechas.html', {
