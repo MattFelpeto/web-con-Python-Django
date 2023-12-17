@@ -29,7 +29,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-kjknbkw*e(4j+%#dzyx_5o205zqw%fvl1$@^u2)#yte*8(zn*i'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['webkarting-4010008071f9.herokuapp.com']
 
